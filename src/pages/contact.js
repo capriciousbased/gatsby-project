@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-import Footer from "../component/footer"
-import Header from "../component/header"
+import Layout from "../component/layout"
+
 const Contact = () => {
   return (
-    <div>
-    <Header />
+    <Layout>
       <h2>Contact us</h2>
       <p>
         The best way to contact with me via
@@ -13,8 +12,7 @@ const Contact = () => {
           Linkedin
         </Link>
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
