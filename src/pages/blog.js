@@ -1,14 +1,16 @@
 import React from "react"
 import Footer from "../component/footer"
 import Header from "../component/header"
-const IndexPage = () => {
+
+const BlogPage = () => {
   return (
     <div>
       <Header />
-      <h1> Hello.</h1>
-      <h2>I'm Anis. Living in Beutifull</h2>
+      <h1>Blog</h1>
+      <p> Post will show up here</p>
       <Footer />
     </div>
   )
 }
-export default IndexPage
+
+export default BlogPage
